@@ -8385,3 +8385,8 @@ body.blue-dark-mode .practice-settings-block__head .hero-panel__muted {
 .diagnostic-settings-panel textarea { box-sizing: border-box; width: 100%; color: inherit; background: transparent; padding: 0.75rem; }
 .diagnostic-settings-panel :is(button, input, textarea, summary):focus-visible { outline: 3px solid #5679dd; outline-offset: 3px; }
 .diagnostic-settings-panel button:disabled { opacity: 0.55; cursor: not-allowed; }
+.hero-brand-subtitle,
+.hero-badge--redbook,
+.hero-header .inline-hover-link {
+    display: none !important;
+}
